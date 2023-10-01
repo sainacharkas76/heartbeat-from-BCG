@@ -48,9 +48,14 @@ The “template matching” rule was evaluated using a correlation function in a
 Accurate labeling is of paramount importance for supervised machine learning. It must be emphasized that ECG here is used for constructing the training data set only, but will not be required during the processing of test data.
 An ‘IJK complex’ label occurred if all fiducial points were identified or if only the fiducial points of the early systolic phase were correctly present. If the RR window was not further examined the window was labeled as a ‘non-IJK complex’.
 
-## Machine Learning and Data Classification
-Different models such as Random Forest (RF), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) should be applied to the dataset.
+## Model selection
+Different machine learning algorithms such as Random Forest (RF), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) should be applied to the dataset.
 
+## Progress and Accomplishments
+
+Up to this point, both BCG and ECG data have been acquired from VR and Movesen sensors. The data underwent a filtering process, and the Pan-Tompkins algorithm was applied to the ECG signals. Additionally, the fiducial points of the BCG signals were verified. For supervised learning, data labeling was performed using a 'template matching' rule and was evaluated using a correlation function within a local moving-window procedure. Furthermore, we have explored the feasibility of detecting individual heartbeats through thresholding applied to linear and rotational kinetic energy signals computed from the VR data.
+
+We plan to apply Random Forest (RF), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) models to the data.
 ## References
 [1] Innovative sensor-free biofeedback during an imposed breathing protocol using the inertial sensors embedded in a Virtual Reality headset, Andrea Carpi
 
