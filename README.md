@@ -6,4 +6,5 @@ The protocol includes four levels of imposed breathing with a descending frequen
 * Level 2: the breathing duration is 6 seconds per breath
 * Level 3: the breathing duration is 8 seconds per breath
 * Level 4: the breathing duration is 10 seconds per breath
+  
 Twenty-six people were engaged to participate in the protocol. Among them, fourteen were male, and twelve were female. The average age was 26.15 years (± 2.44), height 171.26 cm (± 8.06 cm), and weight 63.67Kg (± 9.82 Kg).
